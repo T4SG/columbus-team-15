@@ -45,8 +45,8 @@ body {
 	</div>
 	<div class="jumbotron">
 		<div id="centerInfo">
-
-			<button type="ForumButton" formaction="forum">Forum</button>
+			<a href="chat/index.php">Forum</a>
+			<!-- <button type="ForumButton" formaction="forum">Forum</button> -->
 			<button type="LoggingButton" formaction="logging">Logging</button>
 			<a href="edit.php">Personal Information</a>
 			<!-- <button type="PersonalInfoButton" formaction="personalinfo">Personal Information</button> -->

@@ -1,4 +1,5 @@
 <?php
+session_start();
 // PHP Script Chat - http://coursesweb.net/
 
 define('MAXROWS', 30);             // Maximum number of rows registered for chat
@@ -7,7 +8,7 @@ define('CHATLINK', 1);             // allows links in texts (1), not allow (0)
 // Here create the rooms for chat
 // For more rooms, add lines with this syntax  $chatrooms[] = 'room_name';
 $chatrooms = array();
-$chatrooms[] = 'LJFF';
+$chatrooms[] = 'Chat';
 // $chatrooms[] = 'Nature';
 
 
@@ -21,9 +22,9 @@ define('CADMPASS', 'adminpass');
 
 // If you want than only the logged users to can add texts in chat, sets CHATADD to 0
 // And sets $_SESSION['username'] with the session that your script uses to keep logged users
-define('CHATADD', 1);
+define('CHATADD', 0);
 if(CHATADD !== 1) {
-  if(isset($_SESSION['username'])) define('CHATUSER', $_SESSION['username']);
+  if(isset($_SESSION['user_name'])) define('CHATUSER', $_SESSION['user_name']);
 }
 
 $c_subdir = '';  // here add the name of subfolder you want to use in "chattxt/" directory

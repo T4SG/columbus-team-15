@@ -1,1 +1,1 @@
-{"time":1443847009,"users":{"1443847625":"tester2"},"chats":[{"user":"tester2","date":"3 October 00:36","chat":"test"}]}
+{"time":1443864428,"users":[],"chats":[{"user":"tester2","date":"3 October 00:36","chat":"test"},{"user":"Patrick","date":"3 October 05:22","chat":"asdf"},{"user":"Patrick","date":"3 October 05:22","chat":"asfdsdaf"},{"user":"Patrick","date":"3 October 05:24","chat":"JP MORGAN!"},{"user":"Patrick","date":"3 October 05:27","chat":"I didn't fall asleep while coding, LeBron!!!!"},{"user":"Patrick","date":"3 October 05:27","chat":":) :)"}]}
