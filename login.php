@@ -42,6 +42,9 @@ h4 {
 	margin-top:10px;
 	margin-left:auto;
 	margin-right:auto;
+height:20px;
+align-content:space-around;
+border-radius:5px;
 }
 
 </style>
