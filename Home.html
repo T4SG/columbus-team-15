@@ -4,27 +4,24 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
 </head>
 <body>
-
-    <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;</p>
-    <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input id="TeacherButton" type="button" value="Teacher" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input id="StudentButton" type="button" value="Student" /></p>
-
+    <div class="row">
+        <div class="text-center">
+            <img src="LJFF-logo.png" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="text-center">
+            <input id="TeacherButton" type="button" value="Teacher" onclick="redirect()" />
+            <input id="StudentButton" type="button" value="Student" />
+        </div>
+    </div>
+    <script>
+        function redirect() {
+            window.location.assign("logintest.html")
+        }
+    </script>
 </body>
 </html>
