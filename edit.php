@@ -21,6 +21,7 @@ $_SESSION['FN']=$row["FirstName"];
 $_SESSION['AD']=$row["Address"];
 $_SESSION['HO']=$row["Hobbies"];
 $_SESSION['LN']=$row["LastName"];
+$_SESSION['PN']=$row["Phone"];
 header("location: personalInfo.php");
  // echo $_SESSION['user_name'];
 }
