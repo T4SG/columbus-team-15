@@ -22,14 +22,71 @@
 	width:80%;
 	border-radius:30px;
 	padding: 30px;
-}
+	} 
+	#comments {
+	width:73%;	
+	}
+	#submitButtonDiv {
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:7px;
+	width:50px;
+	}
+	#graphContents {
+	float:;
+	width:400px;
+	
+	}
 </style>
 </head>
 
 <body>
 <div>
 <div id="homeButton"><img src="Home.png" usemap="">Home</div><br>
-  <div id="content">Content for New Div Tag Goes Here</div>
+  <div id="content">
+  Enter student ID: <input type="text" name="studentID" value=""><br><br>
+  <form action="" method=""><label>Attendence: </label><input type="checkbox" name="absent" value="absent"> Student Was Absent </label><input type="checkbox" name="nonabsent" value="nonabsent"> Student Was Present<br><br>
+<div><table width="200" border="0">
+  <tbody>
+    <tr>
+      <td style="font-weight:bold">Class</td>
+      <td style="font-weight:bold">Grades</td>
+    </tr>
+    <tr>
+      <td>Math</td>
+      <td><input type="text" name="mathGrade" value="B+"></td>
+    </tr>
+    <tr>
+      <td>History</td>
+      <td><input type="text" name="historyGrade" value=""></td>
+    </tr>
+    <tr>
+      <td>Economics</td>
+      <td><input type="text" name="econGrade" value=""></td>
+    </tr>
+    <tr>
+      <td>Geography</td>
+      <td><input type="text" name="geogGrade" value="A"></td>
+    </tr>
+     <tr>
+      <td>Biology</td>
+      <td><input type="text" name="bioGrade" value="A"></td>
+    </tr>
+    <tr>
+      <td>Chemistry</td>
+      <td><input type="text" name="chemGrade" value=""></td>
+    </tr>
+    <tr>
+      <td>English</td>
+      <td><input type="text" name="engGrade" value=""></td>
+    </tr>
+  </tbody>
+</table></div>
+  <br>
+  <label>Enter Comments (200 Char.): </label><input id="comments" type="text" name="comments"><br>
+  <div id="submitButtonDiv"> <input type="submit" value="Submit"></div>
+  
+  </div>
 </div>
 </body>
 </html>
