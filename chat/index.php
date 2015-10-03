@@ -7,6 +7,12 @@
 <meta name="description" content="Script for chat simple, online, made with php and javascript, ajax" />
 <meta name="keywords" content="chat script, chat simple, chat online" />
 <link rel="stylesheet" type="text/css" href="chatfiles/chatstyle.css" />
+<style type="text/css">
+	body {
+    background-image: url("basketball.court-floor.jpg");
+}
+
+</style>
 </head>
 <body>
 
