@@ -1,7 +1,8 @@
 /* chat */
 #chatarea {
  margin:2px auto;
- width:600px;
+ height: :80%;
+ width:80%;
  position:relative;
  background-color:#e1e1fe;
  border:1px solid silver;
@@ -28,7 +29,7 @@
 }
 #chatrooms {
  margin:3px auto 0px 2px;
- width:78%;
+ width:85%;
 }
 #chatrooms .chatroom {
  margin-right:3px;
@@ -64,7 +65,7 @@
  top:3px;
  right:2px;
  width:18.8%;
- height:349px;
+ height:549px;
  position:absolute;
  background-color:#f9fbef;
  overflow:auto;
@@ -92,7 +93,7 @@
 #chats {
  margin:2px auto 3px 2px;
  width:78%;
- height:330px;
+ height:530px;
  border:1px solid #aaaafe;
  background-color:#fdfdfe;
  overflow:auto;
