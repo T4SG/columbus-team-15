@@ -7,7 +7,7 @@ session_start();
 <head>
 <style>
 body {
-    background-image: url("http://reddustheelers.com/core/wp-content/uploads/2014/05/basketball.court-floor.jpg");
+    background-image: url("basketball.court-floor.jpg");
 	color:#F9F9F9;
 }
 #centerInfo {
