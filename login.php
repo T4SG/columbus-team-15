@@ -40,8 +40,6 @@ h4 {
 }
 #submitButton {
 	margin-top:10px;
-	margin-left:auto;
-	margin-right:auto;
 height:20px;
 align-content:space-around;
 border-radius:5px;
@@ -57,17 +55,13 @@ border-radius:5px;
 	<h4>Log In To Your Dashboard</h4>
 	<div id ="loginInfo" class="center">
 		<form id="form" action="login2.php" method="post">
-		<?php echo $_SESSION['msg']; $_SESSION['msg']=""?></br>
         	<input id="formText" type="Username" name="Username" placeholder="ID"><br>
             <input id="formText" type="Password" name="Password" placeholder="Password"><br>
-            <input type="submit" value="Submit">
+            <input id="submitButton"  type="submit" value="Submit">
         </form>
 	</div>
 <div>
 
-<script >
-	
-</script>
-
+		<?php echo $_SESSION['msg']; $_SESSION['msg']=""?></br>
 </body>
 </html>
