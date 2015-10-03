@@ -1,5 +1,6 @@
 <?php 
 session_start();
+// print_r($_SESSION);
 ?>
 <!doctype html>
 <html>
@@ -47,7 +48,8 @@ body {
 
 			<button type="ForumButton" formaction="forum">Forum</button>
 			<button type="LoggingButton" formaction="logging">Logging</button>
-			<button type="PersonalInfoButton" formaction="personalinfo">Personal Information</button>
+			<a href="edit.php">Personal Information</a>
+			<!-- <button type="PersonalInfoButton" formaction="personalinfo">Personal Information</button> -->
 			<button type="ProgressTrackerButton" formaction="progresstracker">Progress Tracker</button>
 	    	</div>
     	</div>
