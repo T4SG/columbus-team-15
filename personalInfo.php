@@ -10,7 +10,7 @@ session_start();
 <title>Personal Information</title>
 <style>
 body {
-	background-image: url("http://reddustheelers.com/core/wp-content/uploads/2014/05/basketball.court-floor.jpg");
+	background-image: url("basketball.court-floor.jpg");
 }
 #background {
 	background-color:#E67E22;
