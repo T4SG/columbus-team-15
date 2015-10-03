@@ -11,11 +11,21 @@
 	body {
     background-image: url("basketball.court-floor.jpg");
 }
-
+#homeButton {
+	margin-left:auto;
+	margin-right:auto;
+	width:120px;
+	text-align:center;
+	background-color:clear;
+	align-content:space-around
+}
 </style>
 </head>
 <body>
-
+<div id="homeButton"><img src="Home.png" usemap="#map">Home</div>
+<map name="map">
+  <area shape="circle" coords="50,50,50" href="http://kevinyen.net/c4g/mainpage_team15.php" alt="Home">
+</map>
 <?php include('chat.php'); ?>
 
 </body>
