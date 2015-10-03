@@ -4,6 +4,8 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>Chat Simple online</title>
+<meta name="description" content="Script for chat simple, online, made with php and javascript, ajax" />
+<meta name="keywords" content="chat script, chat simple, chat online" />
 <link rel="stylesheet" type="text/css" href="chatfiles/chatstyle.css" />
 </head>
 <body>
