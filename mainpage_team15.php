@@ -98,7 +98,7 @@ body {
         
         <a href="tracking.html"><img src="Graph.png" width="100" height="100" border="0"></a>
         
-        <a href="logging.html"><img src="Book.png" width="100" height="100"></a>
+        <a href="Log.php"><img src="Book.png" width="100" height="100"></a>
         
         <a href="edit.php"><img src="PlayerCard.png" alt="portrait"></a>
         
