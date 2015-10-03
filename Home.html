@@ -5,19 +5,41 @@
     <meta charset="utf-8" />
     <title></title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <style>
+        body {
+	        background-color: LightBlue;
+        }
+        #buttons {
+	        align-content:center;
+	        margin-left:auto;
+	        margin-right:auto;
+	        background-color:#E67E22;
+	        width:50%;
+	        height:300px;
+	        border-radius:30px;
+	        padding-top:2%;
+	        text-align:center;
+        }
+    </style> 
 </head>
-<body>
-    <div class="row">
-        <div class="text-center">
-            <img src="LJFF-logo.png" />
+<body background="http://reddustheelers.com/core/wp-content/uploads/2014/05/basketball.court-floor.jpg">
+    <br/>
+    <div id="buttons">
+        <div class="row">
+            <div class="text-center">
+                <img src="LJFF-logo.png" />
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="text-center">
+                <input id="TeacherButton" type="button" value="Teacher" onclick="redirect()" />
+                <input id="StudentButton" type="button" value="Student" onclick="redirect()" />
+                <input id="LJFFButton" type="button" value="LJFF" onclick="redirect()" />
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="text-center">
-            <input id="TeacherButton" type="button" value="Teacher" onclick="redirect()" />
-            <input id="StudentButton" type="button" value="Student" />
-        </div>
-    </div>
+
     <script>
         function redirect() {
             window.location.assign("login.html")
