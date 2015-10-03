@@ -6,13 +6,13 @@ session_start();
 <head>
 <style>
 body {
-	background-color: LightBlue;
+	background-image: url("http://reddustheelers.com/core/wp-content/uploads/2014/05/basketball.court-floor.jpg");
 }
 #centerLogin {
 	align-content:center;
 	margin-left:auto;
 	margin-right:auto;
-	background-color:beige;
+	background-color:#E67E22;
 	width:50%;
 	height:170px;
 	border-radius:30px;
