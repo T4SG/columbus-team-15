@@ -6,17 +6,12 @@
     <title></title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <style>
-        body {
-	        background-color: LightBlue;
-        }
         #buttons {
-	        align-content:center;
+	        align-content:space-between;
 	        margin-left:auto;
 	        margin-right:auto;
-	        background-color:#E67E22;
-	        width:50%;
+	        width:60%;
 	        height:300px;
-	        border-radius:30px;
 	        padding-top:2%;
 	        text-align:center;
         }
@@ -26,17 +21,21 @@
     <br/>
     <!--<div id="buttons">-->
         <div class="row">
-            <div class="text-center">
+            <div class="text-center" >
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/psO4oX3r2Qk?autoplay=1" frameborder="0" allowfullscreen></iframe>
                 <!--<img src="LJFF-logo.png" />-->
             </div>
         </div>
         <br />
-        <div class="row">
-            <div class="text-center">
-                <input id="TeacherButton" type="button" value="Teacher" onclick="redirect()" />
-                <input id="StudentButton" type="button" value="Student" onclick="redirect()" />
-                <input id="LJFFButton" type="button" value="LJFF" onclick="redirect()" />
+        <div class="row" >
+            <div id="buttons">
+                <div class="class-center" style="float:left; align-content:space-between; width:33%"><input id="TeacherButton" src="Teachers_button.png" 				
+                width="100" height="100" type="image" value="Teacher" onclick="redirect()" /><br> Teachers </div>
+                <div class="class-center" style="float:left; align-content:space-between; width:33%"><input id="StudentButton" src="Students_button.png"
+                width="100" height="100" type="image" value="Student" onclick="redirect()" /><br>Students</div>
+				<div class="class-center" style="float:left; align-content:space-between; width:33%"><input id="FoundationButton" src=
+                "Foundation_button.png" width="100" height="100" type="image" value="Foundation" onclick=
+                "redirect()" /><br>Foundation</div>
             </div>
         </div>
  <!--   </div> -->
