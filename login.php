@@ -14,7 +14,7 @@ body {
 	margin-right:auto;
 	background-color:#E67E22;
 	width:50%;
-	height:170px;
+	height:210px;
 	border-radius:30px;
 	padding-top:2%;
 	text-align:center;
@@ -36,11 +36,14 @@ body {
 	border-radius:5px;
 }
 h4 {
-	font: Myriad Pro;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
 }
 #submitButton {
 	margin-top:10px;
-height:20px;
+height:30px;
+width: 60px;
+font-size: 14px;
 align-content:space-around;
 border-radius:5px;
 }

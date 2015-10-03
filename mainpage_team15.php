@@ -28,6 +28,7 @@ session_start();
 }
 
 body {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("basketball.court-floor.jpg");
 	color:#F9F9F9;
 }
@@ -44,8 +45,11 @@ body {
 }
 
 #Hi {
+
 	text-align: center;
 }
+
+
 
 .wrapper {
     text-align: center;
@@ -104,7 +108,7 @@ body {
     	<img src="LJFF-logo.png" style="width:150px;height:150px;">
     </div></br>
 	<div id="Hi">
-		<h2><?php echo "Hi, ". $_SESSION['user_name']."!"; ?></h2> </br>
+		<h2><b><?php echo "Hi, ". $_SESSION['user_name']."!"; ?></b></h2> </br>
 	</div>
     <div class="grow">
     </br>	

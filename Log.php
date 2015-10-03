@@ -10,6 +10,7 @@ session_start();
 <title>Personal Information</title>
 <style>
 body {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 	background-image: url("basketball.court-floor.jpg");
 }
 #background {
@@ -71,6 +72,8 @@ input {
   display: inline-block;
   float: left;
 }
+
+
 </style>
 </head>
 

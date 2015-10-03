@@ -10,6 +10,7 @@ session_start();
 <title>Personal Information</title>
 <style>
 body {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 	background-image: url("basketball.court-floor.jpg");
 }
 #background {
@@ -47,12 +48,12 @@ body {
 	align-content:space-around
 }
 #firstName {
-	width: 60%;	
+	width: auto;	
 	  display: inline-block;
   float: left;
 }
 #lastName {
-	width: 60%;	
+	width: autp;	
 	  display: inline-block;
   float: left;
 }
