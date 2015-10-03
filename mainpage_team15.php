@@ -60,9 +60,18 @@ body {
   margin-right: auto;
 }
 
+.grow2{
+    text-align: center;
+/*    letter-spacing: 80px;*/
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .grow img {
-  height: 100px;
-  width: 100px;
+  height: 160px;
+  width: 140px;
  
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
@@ -72,13 +81,19 @@ body {
 }
  
 .grow img:hover {
-  width: 120px;
-  height: 120px;
+  width: 170px;
+  height: 190px;
 }
 
 .button {
     position: absolute;
     top: 50%;
+}
+
+#id1{
+	position: absolute;
+	top:500px;
+	left:500px;
 }
 </style>
 <meta charset="UTF-8">
@@ -94,15 +109,15 @@ body {
     <div class="grow">
     </br>	
         
-<a href="chat/index.php"><img src="Lockers.png" width="100" height="100" border="0"></a>
+<a href="chat/index.php"><img src="Lockers.png" ></a>
         
-        <a href="tracking.html"><img src="Graph.png" width="100" height="100" border="0"></a>
+        <a href="tracking.html"><img src="Graph.png"  ></a>
         
-        <a href="Log.php"><img src="Book.png" width="100" height="100"></a>
+        <a href="Log.php"><img src="Book.png" ></a>
         
-        <a href="edit.php"><img src="PlayerCard.png" alt="portrait"></a>
+        <a href="edit.php"><img src="PlayerCard.png" ></a>
         
-        <a href="calendar.html"><img src="Calendar.png" width="100" height="100" border="0"></a></div>
+        <a href="calendar.html"><img src="Calendar.png" ></a></div>
         
     </div>
 

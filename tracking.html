@@ -12,18 +12,31 @@
   min-height: 250px;
 }
 #graphs {
-	background-color:#e67e22;
+	background-color:#FFC299;
 	height:850px;
 	border-radius:30px;
 	padding-top:2%;
 	text-align:center;
 }
+#homeButton {
+    margin-left:auto;
+    margin-right:auto;
+    width:120px;
+    text-align:center;
+    background-color:clear;
+    align-content:space-around
+}
+
 </style></head><body>
 <head>
 <meta charset=utf-8 />
 <title></title>
 </head>
 <body background="http://reddustheelers.com/core/wp-content/uploads/2014/05/basketball.court-floor.jpg">
+<div id="homeButton"><img src="Home.png" usemap="#map">Home</div>
+<map name="map">
+  <area shape="circle" coords="50,50,50" href="mainpage_team15.php" alt="Home">
+</map>
   <h3 class="text-primary text-center">
     Tracking Morris js charts
   </h3>
@@ -80,7 +93,8 @@
         resize: true,
         pointFillColors: ['#ffffff'],
         pointStrokeColors: ['black'],
-        lineColors: ['gray', 'red']
+        lineColors: ['gray', 'red'],
+        gridTextColor: ['black']
     };
     config.element = 'area-chart';
     Morris.Area(config);
