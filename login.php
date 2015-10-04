@@ -54,6 +54,7 @@ border-radius:5px;
 </head>
 
 <body>
+	<center>Example ID: 4, Example Password: c4g</center>
 <div id = "centerLogin">
 	<h4>Log In To Your Dashboard</h4>
 	<div id ="loginInfo" class="center">
