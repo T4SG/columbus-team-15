@@ -3,7 +3,7 @@ session_start();
 
 $username = $_SESSION['user_name'];
 $password2 = $_SESSION['pass'];
-$mysql_db_hostname = "kevinyen.net";
+$mysql_db_hostname = "localhost";
 $mysql_db_user = "LBFF";
 $mysql_db_password = "LBFF";
 $mysql_db_database = "LBFF";
